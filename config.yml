@@ -1,0 +1,5 @@
+---
+refresh:
+  auto: true
+  interval: 30
+
