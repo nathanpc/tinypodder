@@ -6,7 +6,7 @@
 import os
 import flask
 
-from db import Database
+from feeds import Feeds
 
 # Initialize a Flask object.
 app = flask.Flask(__name__)
@@ -15,8 +15,8 @@ app.config.update(dict(
     DATABASE = os.path.join(app.root_path, "tinypodder.db"),
     DEBUG = True))
 
-# Initialize the database object.
-db = Database(app.config["DATABASE"])
+# Initialize the feeds.
+feeds = Feeds(app.config["DATABASE"])
 
 # Define the webapp home.
 @app.route("/")
