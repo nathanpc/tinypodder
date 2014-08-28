@@ -1,4 +1,4 @@
-# tinyPodder
+# tinypodder
 
 A lightweight podcast manager.
 
