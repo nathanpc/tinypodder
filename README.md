@@ -7,7 +7,7 @@ A lightweight podcast manager.
 
 Install the required libraries:
 
-    - [YAML](https://github.com/esilkensen/yaml)
+  - [YAML](https://github.com/esilkensen/yaml)
 
 Create the SQLite database and start the server:
 
